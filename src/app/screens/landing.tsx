@@ -5,7 +5,7 @@ export default function landing({}: Props) {
   return (
     <div>
       <h1>Rich</h1>
-      <p>
+      <p className="leading-relaxed">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
         architecto officiis dicta. Qui blanditiis voluptates a. Atque, deserunt
         vero quisquam, architecto asperiores nam aperiam est eveniet rerum quam
