@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import NativeModal from "../components/NativeModal";
+import NativeModal from "../components/native-modal";
 import { motion } from "framer-motion";
 
 type Props = {};
