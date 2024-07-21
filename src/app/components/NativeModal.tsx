@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useClickOutside } from "../hooks/useClickOutside";
+import { AnimatePresence, motion } from "framer-motion";
 
 type Props = {
   isModalOpen: boolean;
@@ -27,7 +28,6 @@ function NativeModal({ isModalOpen, closeModal, children }: Props) {
     }
 
     function clickListener(event: MouseEvent) {
-      console.log("event.target", event.target);
       if (event.target === modalRef.current) {
         currModalRef?.close();
         closeModal();
@@ -45,15 +45,21 @@ function NativeModal({ isModalOpen, closeModal, children }: Props) {
   }, [isModalOpen, closeModal]);
 
   return (
-    <dialog
-      id="dialog"
-      className="w-3/4 max-w-full bg-slate-500/50 backdrop-blur-2xl text-white px-7 py-4 rounded-2xl"
-      ref={modalRef}
-      onChange={closeModal}
-    >
-      {children}
-      <button onClick={closeModal}>Close</button>
-    </dialog>
+    <AnimatePresence mode="wait">
+      <motion.dialog
+        // initial={{ opacity: 0, y: 100, scale: 0.5 }}
+        // animate={{ opacity: 1, y: 0, scale: 1 }}
+        // exit={{ opacity: 0 }}
+        id="dialog"
+        className="w-3/4 max-w-full bg-slate-500/50 backdrop-blur-2xl text-white px-7 py-4 rounded-2xl"
+        ref={modalRef}
+        onChange={closeModal}
+      >
+        {children}
+
+        <button onClick={closeModal}>Close</button>
+      </motion.dialog>
+    </AnimatePresence>
   );
 }
 export default NativeModal;
