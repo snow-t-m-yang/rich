@@ -26,7 +26,7 @@ function Book({}: Props) {
             initial={{ opacity: 0, y: 100, scale: 0.5 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0 }}
-            className="text-red-500 w-36 h-72 bg-white"
+            className="text-red-500 bg-white w-36 h-72"
           >
             Native Modal Content
           </motion.div>

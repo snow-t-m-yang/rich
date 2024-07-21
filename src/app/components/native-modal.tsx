@@ -51,7 +51,7 @@ function NativeModal({ isModalOpen, closeModal, children }: Props) {
         // animate={{ opacity: 1, y: 0, scale: 1 }}
         // exit={{ opacity: 0 }}
         id="dialog"
-        className="w-3/4 max-w-full bg-slate-500/50 backdrop-blur-2xl text-white px-7 py-4 rounded-2xl"
+        className="w-3/4 max-w-full py-4 text-white bg-slate-500/50 backdrop-blur-2xl px-7 rounded-2xl"
         ref={modalRef}
         onChange={closeModal}
       >

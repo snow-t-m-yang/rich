@@ -1,7 +1,7 @@
 "use client";
 
 type Props = {};
-export default function landing({}: Props) {
+export default function Landing({}: Props) {
   return (
     <div>
       <h1>Rich</h1>
