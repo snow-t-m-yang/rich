@@ -3,7 +3,7 @@
 type Props = {};
 export default function Landing({}: Props) {
   return (
-    <div>
+    <div className="pt-16">
       <h1>Rich</h1>
       <p className="leading-relaxed">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
