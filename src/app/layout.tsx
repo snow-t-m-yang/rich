@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className}`}>
+    <html lang="en" className="bg-background/90">
+      <body className={`${inter.className} bg-background/90`}>
         <DynamicBanner />
         {children}
         <Nav />
