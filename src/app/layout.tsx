@@ -27,8 +27,8 @@ export default function RootLayout({
         disableTransitionOnChange
       >
         <body className={`${inter.className} h-[100svh]`}>
-          <DynamicBanner />
           <Sheet />
+          <DynamicBanner />
           {children}
           <Nav />
         </body>
