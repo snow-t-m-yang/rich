@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "./components/nav";
 import DynamicBanner from "./components/dynamic-banner";
 import Sheet from "./components/sheet";
+import { ThemeProvider } from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,12 +20,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black`}>
-        <DynamicBanner />
-        <Sheet />
-        {children}
-        <Nav />
-      </body>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="dark"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <body className={`${inter.className} h-[100svh]`}>
+          <DynamicBanner />
+          <Sheet />
+          {children}
+          <Nav />
+        </body>
+      </ThemeProvider>
     </html>
   );
 }

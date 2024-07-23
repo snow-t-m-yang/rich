@@ -11,7 +11,7 @@ export default function DynamicBanner({}: Props) {
 
   return (
     <div className="fixed -top-5 w-full z-10">
-      <div className="w-full max-w-xl rounded-t-3xl px-3 mx-auto bg-neutral-800/90 pt-7 pb-3">
+      <div className="w-full max-w-xl rounded-t-3xl px-3 mx-auto bg-neutral-100/10 backdrop-blur-3xl pt-7 pb-3">
         <h1>{pathname === "/" ? "Home" : pathname}</h1>
         <p>{view}</p>
       </div>

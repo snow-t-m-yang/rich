@@ -6,34 +6,7 @@ export default function Landing({}: Props) {
     <div className="pt-16">
       <h1>Rich</h1>
       <p className="leading-relaxed">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-        architecto officiis dicta. Qui blanditiis voluptates a. Atque, deserunt
-        vero quisquam, architecto asperiores nam aperiam est eveniet rerum quam
-        eaque eum. Ad minus fuga molestias magni! Itaque nisi recusandae porro
-        esse voluptas numquam autem dignissimos! Facere sunt reprehenderit
-        doloribus, perspiciatis quibusdam blanditiis temporibus laboriosam
-        aperiam distinctio! Enim iusto tempora fuga voluptatum saepe molestias
-        ea quod. Cum vero reiciendis provident fugiat cumque accusamus
-        perspiciatis, adipisci modi illo ullam corporis quisquam. Accusantium
-        sint maiores architecto repellat recusandae nihil sapiente quam, natus
-        repudiandae pariatur minima corrupti voluptas dolores, reiciendis alias
-        nobis ea. Ratione quis dolorum totam harum mollitia dolorem incidunt,
-        fuga natus tempora ab, tempore velit similique ipsam rerum, cum labore
-        doloribus iure deleniti nemo minima optio obcaecati laboriosam! Sit
-        culpa sint assumenda tempore molestiae, architecto unde obcaecati error
-        nemo itaque blanditiis a, perferendis soluta cupiditate incidunt
-        necessitatibus voluptates reiciendis, consectetur repellat! Veniam
-        consequuntur ipsa molestias alias vitae enim, iusto quisquam tempore
-        rerum sit dicta in eos voluptates odio, atque minima aut totam illo
-        ratione perferendis possimus dolor suscipit recusandae fugiat. Fugiat
-        sapiente aliquid rerum adipisci natus eaque! Molestias recusandae,
-        nostrum maiores eum aliquid placeat magnam eius obcaecati ea odio error
-        quae minus, minima maxime aut fugiat molestiae natus sed nobis voluptate
-        enim! Soluta officia nesciunt, repellendus a velit maxime repudiandae
-        rem ex! Dignissimos sunt in officiis totam. Earum sed sint amet
-        excepturi hic, eaque quaerat culpa impedit repellendus aspernatur, autem
-        velit magni minima magnam veniam dolores porro et! Nobis, iure illo? Et,
-        quibusdam.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem molestias consectetur maxime voluptatem ea aut eius, asperiores alias repudiandae nostrum assumenda perferendis, reprehenderit, ullam non accusantium sint. Quia sequi assumenda tempore commodi amet veniam ratione reiciendis non odit saepe aliquam minima aliquid eveniet placeat provident maiores harum incidunt, consequatur, sed accusantium recusandae quos. Magnam at accusantium mollitia eveniet blanditiis nulla eos, illo architecto incidunt natus, repellat atque ab quis aliquid saepe debitis reiciendis, facere sint praesentium cum ipsam aperiam. Perferendis magni suscipit totam eaque voluptatem distinctio molestiae natus deserunt, ipsa pariatur, enim nesciunt dicta. Aliquid aliquam ab numquam repudiandae atque eligendi obcaecati optio delectus sint est, tempora eaque, provident assumenda blanditiis quis aut suscipit tenetur explicabo, beatae fuga voluptatibus quos. Voluptatem quia cum modi temporibus facere, earum dolore et ab? Laborum, id neque voluptates repellendus eos cumque saepe nam. Libero ipsum vitae eius nesciunt voluptates distinctio ex dolor voluptas placeat rerum iusto, ad pariatur, necessitatibus sit eligendi, quos cumque similique. Saepe quae reprehenderit nulla aspernatur laudantium ducimus autem aliquid debitis, accusamus animi explicabo ad, libero nesciunt minima dolorem amet quidem facere itaque architecto similique hic. Saepe optio nihil dignissimos repellat, pariatur assumenda maxime, id, totam tenetur magni officia corporis esse eius modi? Quibusdam, nobis sapiente? Neque aliquam obcaecati sed placeat est delectus quod magni modi quas? Rem maxime, optio reprehenderit nobis quam id exercitationem laborum architecto odio quae esse maiores neque consequatur, corporis vero totam nostrum voluptatem blanditiis amet ad ipsa? Obcaecati ipsam quibusdam harum, dolorem quisquam voluptatem voluptatum atque hic optio magnam unde, ducimus ratione odio sed deserunt? Eveniet laudantium quae modi sint assumenda delectus voluptas hic, consequatur quod tempora est cum? Optio dolor voluptatibus commodi inventore corporis. In accusantium beatae eveniet dicta? Nulla dolor iure, assumenda unde iste laborum tenetur? Id iure voluptas et, dolore itaque modi aut officia nisi voluptatibus odio? Culpa quos, magnam explicabo ex voluptatum quisquam, iusto consequatur praesentium sed rerum nobis nihil unde consectetur nemo magni eveniet maxime. Magnam sequi doloribus illum sit nostrum. Consectetur, saepe ea harum neque rerum fuga molestiae maiores? Tempora, ea quis? Nihil, nemo nostrum ipsum dolore veritatis at!
       </p>
     </div>
   );

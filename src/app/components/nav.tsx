@@ -11,12 +11,12 @@ export default function Nav({}: Props) {
   
   return (
     <div className="fixed bottom-0 w-full">
-      <nav className="flex justify-center w-full max-w-xl px-3 mx-auto bg-neutral-800/90 py-3">
+      <nav className="flex justify-center w-full max-w-xl px-3 mx-auto bg-neutral-100/10 backdrop-blur-3xl py-3">
         <button onMouseDown={() => setView(view === "add" ? "nil" : "add")}>
           <LuPlus
             className={`${
               view === "add" ? "rotate-45" : ""
-            } w-12 h-12 duration-300 transition-all bg-transparent`}
+            } w-12 h-12 text-primary duration-300 transition-all bg-transparent`}
           />
         </button>
       </nav>
