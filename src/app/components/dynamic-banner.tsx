@@ -13,9 +13,9 @@ export default function DynamicBanner({}: Props) {
   //TODO: book amount need to listen to real time updates
 
   return (
-    <div className="fixed -top-5 w-full z-10">
-      <div className="w-full max-w-xl rounded-t-3xl px-3 mx-auto bg-neutral-900/90 backdrop-blur-3xl pt-9 pb-5">
-        <section className="text-3xl flex gap-3 items-center justify-center w-full">
+    <div className="fixed z-10 w-full -top-5">
+      <div className="w-full max-w-xl px-3 pb-5 mx-auto rounded-t-3xl bg-neutral-900/90 backdrop-blur-3xl pt-9">
+        <section className="flex items-center justify-center w-full text-3xl gap-3">
           <p>{book.amount}</p>
         </section>
       </div>

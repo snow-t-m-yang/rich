@@ -11,7 +11,7 @@ export default function Nav({}: Props) {
   
   return (
     <div className="fixed bottom-0 w-full">
-      <nav className="flex justify-center w-full max-w-xl px-3 mx-auto bg-neutral-900/90 backdrop-blur-3xl py-3">
+      <nav className="flex justify-center w-full max-w-xl px-3 py-3 mx-auto bg-neutral-900/90 backdrop-blur-3xl">
         <button onMouseDown={() => setView(view === "add" ? "nil" : "add")}>
           <LuPlus
             className={`${

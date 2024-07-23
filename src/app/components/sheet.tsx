@@ -19,16 +19,16 @@ export default function Sheet({}: Props) {
       <AnimatePresence>
         {view === "add" && (
           <motion.div
-            className="fixed top-0 w-full z-10"
+            className="fixed top-0 z-10 w-full"
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             layout
           >
-            <div className="w-full max-w-xl border border-neutral-700 border-t-transparent rounded-b-xl px-3 mx-auto bg-neutral-900/10 backdrop-blur-3xl pt-24 pb-7">
-              <div className="flex flex-col items-center gap-3 justify-center w-full px-3">
+            <div className="w-full max-w-xl px-3 pt-24 mx-auto border border-neutral-700 border-t-transparent rounded-b-xl bg-neutral-900/10 backdrop-blur-3xl pb-7">
+              <div className="flex flex-col items-center justify-center w-full px-3 gap-3">
                 <h3>{`${today}`}</h3>
-                <section className="text-3xl flex gap-3 items-center justify-between w-full">
+                <section className="flex items-center justify-between w-full text-3xl gap-3">
                   <Label htmlFor="amount">Amount</Label>
                   <Input
                     id="amount"
