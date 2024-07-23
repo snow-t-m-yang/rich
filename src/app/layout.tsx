@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav";
 import DynamicBanner from "./components/dynamic-banner";
+import Sheet from "./components/sheet";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-background/90">
-      <body className={`${inter.className} bg-background/90`}>
+    <html lang="en">
+      <body className={`${inter.className} bg-black`}>
         <DynamicBanner />
+        <Sheet />
         {children}
         <Nav />
       </body>
